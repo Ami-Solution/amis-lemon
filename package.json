@@ -63,12 +63,13 @@
     "url-loader": "^0.5.7"
   },
   "scripts": {
-    "start": "webpack --config ./webpack.production.js -p",
+    "start": "pnpm run production; cp -r ./public/web/dist/* publicIpfs",
+    "production": "webpack --config ./webpack.production.js -p",
     "start1": "node webpack.dev-server.js --progress --colors --inline"
   },
   "repository": {
     "type": "git",
-    "url": "https://pmedia.codebasehq.com/lemonemail/lemon-dapp.git"
+    "url": "https://github.com/ami-solution/amis-lemon.git"
   },
   "author": "Andrej Cvoro",
   "license": "ISC"
