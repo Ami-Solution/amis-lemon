@@ -63,8 +63,8 @@
     "url-loader": "^0.5.7"
   },
   "scripts": {
-    "production": "webpack --config ./webpack.production.js -p",
-    "start": "node webpack.dev-server.js --progress --colors --inline"
+    "start": "webpack --config ./webpack.production.js -p",
+    "start1": "node webpack.dev-server.js --progress --colors --inline"
   },
   "repository": {
     "type": "git",

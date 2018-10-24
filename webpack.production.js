@@ -23,26 +23,26 @@ var config = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({
+        use: ExtractTextPlugin.extract({
           fallback: "style-loader",
-          loader: ['css-loader', 'sass-loader']
+          use: ['css-loader', 'sass-loader']
         })
       },
       {
         test: /\.(png|jpg|gif)$/,
-        loader: 'url-loader?limit=8192?name=images/[name].[ext]'
+        use: 'url-loader?limit=8192?name=images/[name].[ext]'
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "url-loader?limit=10000&mimetype=application/font-woff?name=fonts/[name].[ext]"
+        use: "url-loader?limit=10000&mimetype=application/font-woff?name=fonts/[name].[ext]"
       },
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "file-loader?name=fonts/[name].[ext]"
+        use: "file-loader?name=fonts/[name].[ext]"
       },
       {
         test: /\.json?$/,
-        loader: 'json-loader'
+        use: 'json-loader'
       }
     ]
   },
