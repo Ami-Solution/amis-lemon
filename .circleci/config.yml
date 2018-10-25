@@ -43,4 +43,4 @@ jobs:
           - v1-dependencies-
       - run:
           name: env; echo $
-command: cd app; env; echo $
+          command: cd app; env; echo $
