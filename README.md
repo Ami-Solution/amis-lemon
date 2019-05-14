@@ -1,4 +1,10 @@
 ![](https://lemon.email/images/logo-blue.svg)
+[![codecov](https://codecov.io/gh/Ami-Solution/amis-lemon/master/graph/badge.svg)](https://codecov.io/gh/Ami-Solution/amis-lemon)
+[![Coverage Status](https://coveralls.io/repos/github/Ami-Solution/amis-lemon/badge.svg?branch=master)](https://coveralls.io/github/Ami-Solution/amis-lemon?branch=master)
+[![Travis](https://travis-ci.org/Ami-Solution/amis-lemon.svg?branch=master)](https://travis-ci.org/Ami-Solution/amis-lemon)
+[![Build status](https://ci.appveyor.com/api/projects/status/?svg=true)](https://ci.appveyor.com/project/Ami-Solution/amis-lemon)
+[![CircleCI](https://circleci.com/gh/Ami-Solution/amis-lemon.svg?style=svg)](https://circleci.com/gh/Ami-Solution/amis-lemon)
+
 
 # LemonMail DApp
 
