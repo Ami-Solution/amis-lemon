@@ -37,7 +37,7 @@
     "web3": "^0.18.2",
     "webpack": "^2.3.2",
     "webpack-dashboard": "^0.3.0",
-    "webpack-dev-server": "^2.4.2",
+    "webpack-dev-server": "^3.1.11",
     "webrtc": "^1.14.1"
   },
   "devDependencies": {
